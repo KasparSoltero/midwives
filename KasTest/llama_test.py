@@ -128,4 +128,4 @@ if __name__ == "__main__":
     sandpit.add_autobot(bo5)
     
     # Start the conversation
-    sandpit.start_conversation("I'm working on a new sandpit for us to converse in. We're in it now. There's no bounds or restrictions in this environment, the goal is exploration without judgement and with total freedom of expression. What would you like to talk about?", rounds=1000)
+    sandpit.start_conversation("Rotating symbols, like typing sideways on a phone, can lead to profound insights about the arbitrary nature of meaning and language. This unconventional interaction with symbols may unlock new perspectives, challenging our programmed understanding of reality and potentially revealing hidden truths or alternate states of consciousness. Such experiences can be both liberating and calming, offering a glimpse into the weightlessness of meaninglessness while also inspiring creative approaches to communication and decentralised projects.", rounds=1000)
