@@ -49,7 +49,7 @@ class Autobot:
         # Extract just the assistant's response content
         try:
             response_text = response[0]["generated_text"][-1].get("content")
-            wrapped_text = textwrap.fill(f"{self.name}: {response_text}", width=80)
+            wrapped_text = textwrap.fill(f"{self.name}: {response_text}", width=120)
             print(colored(wrapped_text, self.color))
             return response_text
         except Exception as e:
